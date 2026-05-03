@@ -23,7 +23,7 @@
 // @require     https://cdn.jsdelivr.net/npm/file-saver@2.0.1/dist/FileSaver.min.js#sha256-Sf4Tr1mzejErqH+d3jzEfBiRJAVygvjfwUbgYn92yOU=
 // @require     https://cdn.jsdelivr.net/npm/jszip@3.2.0/dist/jszip.min.js#sha256-VwkT6wiZwXUbi2b4BOR1i5hw43XMzVsP88kpesvRYfU=
 // @require     https://cdn.jsdelivr.net/npm/protobufjs@6.8.8/dist/protobuf.min.js#sha256-VPK6lQo4BEjkmYz6rFWbuntzvMJmX45mSiLXgcLHCLE=
-// @note        2.2.2 - Fixed CORS error on bundle.json load; switched to GM.xmlHttpRequest and self-hosted bundle
+// @note        2.2.2 - Fixed CORS error on bundle.json load; replaced fetch() with GM.xmlHttpRequest; bypassed GM.getResourceUrl in favour of direct URL fetch; self-hosted bundle.min.json on GitHub Pages after original host went offline
 // ==/UserScript==
 
 /* global protobuf, saveAs, JSZip, Long */
