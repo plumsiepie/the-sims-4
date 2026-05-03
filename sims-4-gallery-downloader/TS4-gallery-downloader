@@ -488,8 +488,9 @@ const downloadItem = async scope => {
 
 let jsonDescriptor = await xhr({
   url: await GM.getResourceUrl('bundle.json'),
-  responseType: 'json'
+  responseType: 'text'
 });
+jsonDescriptor = JSON.parse(jsonDescriptor);
 const root = protobuf.Root.fromJSON(jsonDescriptor);
 
 document.addEventListener('click', e => {
