@@ -1,2 +1,2 @@
-# the-sims-4
+# The Sims 4
 Tools and mods for The Sims 4.
