@@ -8,15 +8,16 @@
 // @connect     athena.thesims.com
 // @connect     www.thesims.com
 // @connect     thesims-api.ea.com
+// @connect     plumsiepie.github.io
 // @version     2.2.2
-// @namespace   plumsiepie.github.io
+// @namespace   anadius.github.io
 // @grant       unsafeWindow
 // @grant       GM.xmlHttpRequest
 // @grant       GM_xmlhttpRequest
 // @grant       GM.getResourceUrl
 // @grant       GM_getResourceURL
-// @icon        https://plumsiepie.github.io/the-sims-4/sims-4-gallery-downloader/sims-4-gallery-downloader.png
-// @resource    bundle.json https://plumsiepie.github.io/the-sims-4/sims-4-gallery-downloader/bundle.min.json
+// @icon        https://anadius.github.io/ts4installer-tumblr-files/userjs/sims-4-gallery-downloader.png
+// @resource    bundle.json https://plumsiepie.github.io/the-sims-4/tools/bundle.min.json
 // @require     https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @require     https://cdn.jsdelivr.net/npm/long@4.0.0/dist/long.js#sha256-Cp9yM71yBwlF4CLQBfDKHoxvI4BoZgQK5aKPAqiupEQ=
 // @require     https://cdn.jsdelivr.net/npm/file-saver@2.0.1/dist/FileSaver.min.js#sha256-Sf4Tr1mzejErqH+d3jzEfBiRJAVygvjfwUbgYn92yOU=
@@ -487,7 +488,7 @@ const downloadItem = async scope => {
 /* init */
 
 let jsonDescriptor = await xhr({
-  url: await GM.getResourceUrl('bundle.json'),
+  url: 'https://plumsiepie.github.io/the-sims-4/sims-4-gallery-downloader/bundle.min.json',
   responseType: 'text'
 });
 jsonDescriptor = JSON.parse(jsonDescriptor);
