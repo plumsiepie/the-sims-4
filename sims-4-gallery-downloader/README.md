@@ -5,7 +5,7 @@
 This is an adopted fork maintained by plumsiepie after the original was retired.
 
 
-Requirements
+### Requirements
 To use this script you need a browser extension that supports UserScripts:
 
 Firefox — Greasemonkey
@@ -13,13 +13,13 @@ Chrome, Edge, Opera, or other Chromium-based browsers — Tampermonkey or Violen
 
 You also need a free EA account to browse the gallery.
 
-Limitations
+### Limitations
 
 You cannot search for or download items that use custom content (CC)
 You cannot upload anything via the gallery website
 
 
-Installation
+### Installation
 
 Install one of the browser extensions listed above
 Click the link below — your extension will prompt you to install the script automatically:
