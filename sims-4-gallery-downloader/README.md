@@ -1,7 +1,7 @@
 # TS4 Gallery Downloader
-A UserScript that lets you download households, lots, and rooms directly from The Sims 4 Gallery website.
+*A UserScript that lets you download households, lots, and rooms directly from The Sims 4 Gallery website.*
 
-Originally created by anadius.
+**Created by anadius.**
 This is an adopted fork maintained by plumsiepie after the original was retired.
 
 
