@@ -2,6 +2,7 @@
 *A UserScript that lets you download households, lots, and rooms directly from The Sims 4 Gallery website.*
 
 **Created by anadius.**
+
 This is an adopted fork maintained by plumsiepie after the original was retired.
 
 
